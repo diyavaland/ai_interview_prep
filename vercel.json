@@ -1,13 +1,19 @@
 {
+  "version": 3,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
   "routes": [
     {
-    "src":"/",
-    "dest":"/"
+      "src": "/",
+      "dest": "/sign-in"
     },
     {
-      "src": "/(root)/page.tsx",
-      "dest": "/"
+      "src": "/(.*)",
+      "dest": "/$1"
     }
-
   ]
 }
