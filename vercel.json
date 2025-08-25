@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+    "src":"/",
+    "dest":"/"
+    },
+    {
+      "src": "/(root)/page.tsx",
+      "dest": "/"
+    }
+
+  ]
+}
