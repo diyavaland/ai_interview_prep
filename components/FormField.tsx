@@ -2,6 +2,8 @@ import React from "react";
 import { Controller, Control, FieldValues, Path } from "react-hook-form";
 import { FormControl, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+// @ts-ignore
+import {T} from "tailwindcss/dist/types-WlZgYgM8";
 
 
 interface FormFieldProps <T extends FieldValues> {
